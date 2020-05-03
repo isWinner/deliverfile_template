@@ -192,3 +192,9 @@ skip_screenshots true
 #跳过上传元数据
 skip_metadata true
 ipa "./productName.ipa"#ipa路径，一般都是在项目根目录下格式为：项目名.ipa
+#审核通过是否自动释放
+automatic_release false
+#跳过二进制文件上传，适用于只想改metadata
+skip_binary_upload false
+#指定screenshots目录地址
+# screenshots_path 
